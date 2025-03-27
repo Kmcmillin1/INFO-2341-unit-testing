@@ -69,8 +69,8 @@ import {
   
     it('returns false when no enemies collide', () => {
       const player = { x: 0, y: 0, size: 10 };
-      const enemies = [{ x: 100, y: 100, size: 10 }];
-      expect(checkEnemyCollision(player, enemies)).toBe(false);
+        const enemies = [{ x: 100, y: 100, size: 10 }];
+        expect(checkEnemyCollision(player, enemies)).toBe(false);
     });
   });
   
@@ -81,7 +81,9 @@ import {
     it('increases survivalTime by 1', () => {
       const state = { survivalTime: 5, isGameOver: false };
       const result = incrementSurvivalTime(state);
-      expect(result.survivalTime).toBe(6);
+        expect(result.survivalTime).toBe(6);
+
+        // This thkjsfbdkfjbsdjbf
     });
 
     // write a unit test to make sure that the time stays the same 
